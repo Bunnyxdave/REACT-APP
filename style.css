@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+}
+
+.header {
+  /* background-color: aquamarine; */
+  height: 4rem;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.501);
+}
+
+.img-logo {
+  height: 3rem;
+  border-radius: 40%;
+  box-shadow: 0px 5px 10px #00000027;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.ul_1 {
+  list-style: none;
+  margin: 50px;
+}
+
+svg {
+  margin: 20px;
+}
+
+input {
+  border: 1px solid grey;
+  height: 2rem;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroSection {
+  background-color: aquamarine;
+  height: 43vw;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herochild1 {
+  background-color: aqua;
+  height: 100%;
+  flex: 0.1;
+}
+.herochild2 {
+  background-color: bisque;
+  height: 100%;
+  flex: 2;
+}
+.herochild3 {
+  background-color: blueviolet;
+  height: 100%;
+  flex: 2;
+}
+
+.collection-container {
+  height: 30vw;
+  background-color: red;
+  padding: 33px;
+  display: flex;
+}
+
+.w_collec {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.sub_cont {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.m_collec {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.k_collec {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(195, 255, 0);
+}
+
+.g_card {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(1, 255, 81);
+}
+
+.sub2_cont {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Trendy {
+  height: 48vw;
+  width: auto;
+  background-color: beige;
+}
+
+.Trendy > h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.Trendy > ul {
+  margin: 0px 0px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.Trendy > ul > li {
+  list-style: none;
+  margin: 10px 30px;
+}
+
+.Products{
+    padding: 0px 40px;
+}
+
+.card{
+    background-color: aquamarine;
+    width:fit-content;
+    padding:15px ;
+    border-radius: 15px;
+}
+
+
+.prd-img{
+    border-radius: 10px;
+}
+
+.prd-details{
+    margin: 10px;
+}
