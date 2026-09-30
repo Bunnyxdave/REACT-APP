@@ -116,7 +116,7 @@ input {
 }
 
 .Trendy {
-  height: 48vw;
+  height: 60vw;
   width: auto;
   background-color: beige;
 }
@@ -147,13 +147,34 @@ input {
     width:fit-content;
     padding:15px ;
     border-radius: 15px;
+    margin: 10px;
+    
+
 }
 
 
 .prd-img{
     border-radius: 10px;
+    width:200px;
+    height:200px
 }
 
 .prd-details{
     margin: 10px;
+}
+
+.prd-cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  flex-wrap:wrap;
+}
+
+
+.footer{
+  background-color: orange;
+  padding:20px;
+  font-size: 25px;
+  text-align: center;
 }
