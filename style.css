@@ -47,7 +47,7 @@ input {
 }
 
 .HeroSection {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 43vw;
   width: auto;
   display: flex;
@@ -55,19 +55,59 @@ input {
   align-items: center;
 }
 .herochild1 {
-  background-color: aqua;
-  height: 100%;
+ background-color: #3c433bd8;
+   height: 100%;
+     display:flex;
+  justify-content: space-around;
+  flex-direction: column;
   flex: 0.1;
 }
+
+.social-icons{
+  
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  margin-top:20px;
+  color: #a8b1a6;
+}
 .herochild2 {
-  background-color: bisque;
+  background-color: #3c433bd8;
+  color:#fff;
   height: 100%;
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.herochild2 > div  {
+  margin: 10px 10px 10px 100px;
+  padding:20px;
+  
+}
+
+.shop-now {
+ margin: 10px 10px 10px 100px;
+  padding:20px;
+  width:fit-content;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color:#B8D2B3;
+  color:#020402;
+}
+
 .herochild3 {
   background-color: blueviolet;
   height: 100%;
   flex: 2;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .collection-container {
