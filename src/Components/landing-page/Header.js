@@ -9,10 +9,10 @@ const Header = () => {
       </div>
       <div className="nav-links">
         <ul>
-          <li className="ul_1">Home</li>
-          <li className="ul_1">Shop</li>
-          <li className="ul_1">About</li>
-          <li className="ul_1">Contact</li>
+          <li className="ul_1"><a href="#home">Home</a></li>
+          <li className="ul_1"><a href="#shop">Shop</a></li>
+          <li className="ul_1"><a href="#about">About</a></li>
+          <li className="ul_1"><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div className="searchBar">

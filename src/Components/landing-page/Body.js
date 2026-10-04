@@ -1,4 +1,4 @@
-import { products } from "../../utils/mockData";
+import { products, shopProducts } from "../../utils/mockData";
 
 export const HeroSection = () => {
   return (
@@ -6,7 +6,7 @@ export const HeroSection = () => {
       <div className="herochild1">
         <div className="social-icons">
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -15,14 +15,14 @@ export const HeroSection = () => {
             viewBox="0 0 24 24"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
           </svg>
 
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -32,9 +32,9 @@ export const HeroSection = () => {
           >
             <path
               fill="currentColor"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
             <path
               fill="currentColor"
@@ -43,7 +43,7 @@ export const HeroSection = () => {
           </svg>
 
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -57,9 +57,9 @@ export const HeroSection = () => {
             />
             <path
               fill="currentColor"
-              fill-rule="evenodd"
-              d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-4.845-1.407A1.463 1.463 0 0 1 18.67 12a1.46 1.46 0 0 1-.808 1.33c.01.146.01.293 0 .44 0 2.242-2.61 4.061-5.829 4.061s-5.83-1.821-5.83-4.061a3.25 3.25 0 0 1 0-.44 1.458 1.458 0 0 1-.457-2.327 1.458 1.458 0 0 1 2.063-.064 7.163 7.163 0 0 1 3.9-1.23l.738-3.47v-.006a.31.31 0 0 1 .37-.236l2.452.49a1 1 0 1 1-.132.611l-2.14-.45-.649 3.12a7.11 7.11 0 0 1 3.85 1.23c.259-.246.6-.393.957-.405Z"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-4.845-1.407A1.463 1.463 0 0 1 18.67 12a1.46 1.46 0 0 1-.808 1.33c.01.146.01.293 0 .44 0 2.242-2.61 4.061-5.829 4.061s-5.83-1.821-5.83-4.061a3.25 3.25 0 0 1 0-.44 1.458 1.458 0 0 1-.457-2.327 1.458 1.458 0 0 1 2.063-.064 7.163_7_163_0_0_1_3_9_-1_23l_.738_-3_47v_-.006a_.31_.31_0_0_1_.37_-.236l_2_452_.49a1_1_0_１_１_-_.１３２_.６１１l_-２_１４_-_４_５_-_６_４９_３_１２a7_１１_7_１１_０_０_１_3_85_₁₂₃c_.₂₅₉_-_₂₄₆_.₆_-_₃₉₃_.957_-_₄₀₅Z"
+              clipRule="evenodd"
             />
             <path
               fill="currentColor"
@@ -68,7 +68,7 @@ export const HeroSection = () => {
           </svg>
 
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -77,14 +77,14 @@ export const HeroSection = () => {
             viewBox="0 0 24 24"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M12.037 21.998a10.313 10.313 0 0 1-7.168-3.049 9.888 9.888 0 0 1-2.868-7.118 9.947 9.947 0 0 1 3.064-6.949A10.37 10.37 0 0 1 12.212 2h.176a9.935 9.935 0 0 1 6.614 2.564L16.457 6.88a6.187 6.187 0 0 0-4.131-1.566 6.9 6.9 0 0 0-4.794 1.913 6.618 6.618 0 0 0-2.045 4.657 6.608 6.608 0 0 0 1.882 4.723 6.891 6.891 0 0 0 4.725 2.07h.143c1.41.072 2.8-.354 3.917-1.2a5.77 5.77 0 0 0 2.172-3.41l.043-.117H12.22v-3.41h9.678c.075.617.109 1.238.1 1.859-.099 5.741-4.017 9.6-9.746 9.6l-.215-.002Z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
           </svg>
 
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -93,13 +93,13 @@ export const HeroSection = () => {
             viewBox="0 0 24 24"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
             />
           </svg>
 
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -192,14 +192,51 @@ export const Products = ({ prdDetails }) => {
   );
 };
 
+//ek component jo shoping component rahega wo banan hai aur ussi me filter wagaira usestate ka use kar ke implement karna hai 
+
+
+const Banner = () =>{
+
+}
+
+const Shopbody = ()=>{
+    return <div>
+      <div>FILTER</div>
+       <div className="prd_box">
+        {shopProducts.map((product) => (
+          <Products key={product.id} prdDetails={product} />
+        ))}
+      </div>
+    </div>
+}
+
+const Prd_grid = ({shopProducts}) =>{
+    const { name, brand, price, ratings, imgid } = shopProducts;
+
+  return <div>
+     <div className="card">
+      <img className="prd-img" src={imgid} />
+      <div className="prd-details">
+        <h3>{name}</h3>
+        <p>brand:{brand}</p>
+        <span>rating:{ratings}</span>
+        <span>
+          {" "}
+          price:<b>{price}</b>
+        </span>
+      </div>
+    </div>
+    </div>
+}
 
 
 export const Body = () => {
   return (
-    <div>
+    <div className="grad-body">
       <HeroSection />
       <Collection />
       <Trendy />
+      <Shopbody />
     </div>
   );
 };

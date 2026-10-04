@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  
 }
 
 .header {
@@ -22,6 +23,11 @@ ul {
   display: flex;
   justify-content: space-between;
   width: auto;
+}
+
+ul >li >a {
+  text-decoration: none;
+  color: #3c433bd8;
 }
 
 .ul_1 {
@@ -217,4 +223,10 @@ input {
   padding:20px;
   font-size: 25px;
   text-align: center;
+}
+
+.prd_box{
+  display:flex;
+  flex-wrap:wrap;
+  height:auto;
 }
