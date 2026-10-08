@@ -1,14 +1,13 @@
 import Header from "./Components/landing-page/Header";
-import { Body } from "./Components/landing-page/Body";
 import Footer from "./Components/landing-page/Footer";
-
+import { Outlet } from "react-router";
 
 
 const Container = () => {
   return (
     <div>
       <Header />
-      <Body />
+        <Outlet />
       <Footer />
     </div>
   );
