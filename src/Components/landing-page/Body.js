@@ -1,4 +1,4 @@
-import { products, shopProducts } from "../../utils/mockData";
+import { products } from "../../utils/mockData";
 
 export const HeroSection = () => {
   return (
@@ -176,7 +176,10 @@ export const Trendy = () => {
 
 export const Products = ({ prdDetails }) => {
   const { name, brand, price, ratings, imgid } = prdDetails;
+
+
   return (
+    //add a filter button
     <div className="card">
       <img className="prd-img" src={imgid} />
       <div className="prd-details">
@@ -189,45 +192,14 @@ export const Products = ({ prdDetails }) => {
         </span>
       </div>
     </div>
+    
   );
 };
 
 //ek component jo shoping component rahega wo banan hai aur ussi me filter wagaira usestate ka use kar ke implement karna hai 
 
 
-const Banner = () =>{
 
-}
-
-const Shopbody = ()=>{
-    return <div>
-      <div>FILTER</div>
-       <div className="prd_box">
-        {shopProducts.map((product) => (
-          <Products key={product.id} prdDetails={product} />
-        ))}
-      </div>
-    </div>
-}
-
-const Prd_grid = ({shopProducts}) =>{
-    const { name, brand, price, ratings, imgid } = shopProducts;
-
-  return <div>
-     <div className="card">
-      <img className="prd-img" src={imgid} />
-      <div className="prd-details">
-        <h3>{name}</h3>
-        <p>brand:{brand}</p>
-        <span>rating:{ratings}</span>
-        <span>
-          {" "}
-          price:<b>{price}</b>
-        </span>
-      </div>
-    </div>
-    </div>
-}
 
 
 export const Body = () => {
@@ -236,7 +208,7 @@ export const Body = () => {
       <HeroSection />
       <Collection />
       <Trendy />
-      <Shopbody />
+      
     </div>
   );
 };
