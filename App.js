@@ -6,6 +6,8 @@ import Container from "./src/AppLayout";
 import About from "./src/Components/landing-page/About";
 import Contact from "./src/Components/landing-page/Contact";
 import { Body } from "./src/Components/landing-page/Body";
+import Errorpage from "./src/Components/Errorpage";
+
 
 
 const appRouter = createBrowserRouter([
@@ -18,6 +20,7 @@ const appRouter = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/", element: <Body /> },
     ],
+    errorElement: <Errorpage/>
   },
   
 ]);
